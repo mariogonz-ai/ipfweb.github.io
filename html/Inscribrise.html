@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Powerlifting Federation</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo_ipf.svg" />
+    <link rel="stylesheet" href="../css/stylebasico.css">
+</head>
+
+<div class="header">
+    <table>
+        <tr>
+            <td><img class="imgtitulo" src="../img/logo_ipf.svg"></td>
+            <td><i>
+                    <h1 class="titulo">International Powerlifting Federation</h1>
+                </i></td>
+        </tr>
+    </table>
+</div>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+        <nav class="nav">
+            <button class="buttonnav" onclick="location.href='../index.html'"><a class="a-botones"
+                    href="../index.html">Principal</a></button>
+            <button class="buttonnav" onclick="location.href='noticias.html'"><a class="a-botones"
+                    href="noticias.html">Noticias</a></button>
+            <button class="buttonnav buttonnavrightradius" onclick="location.href='Contactanos.html'"><a
+                    class="a-botones" href="Contactanos.html">Contactanos</a></button>
+            <button class="activo buttonnav" onclick="location.href='Inscribrise.html'"><a class="a-botones"
+                    href="Inscribrise.html">Inscribirse</a></button>
+            <button class="buttonnav" onclick="location.href='About.html'"><a class="a-botones" href="About.html">Sobre
+                    Nosotros</a></button>
+        </nav>
+    </div>
+    <div class="col-1"></div>
+</div>
+<!--ARRIBA HEADER-->
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <div class="formcontacto">
+            <h3 class="tituloform">Formulario de inscripcion a la competicion</h3>
+            <form action="/PaginaPower/index.html" method="post">
+                <input type="text" name="nombre" placeholder="Nombre"><br><br>
+                <input type="text" name="apellidos" placeholder="Apellido"><br><br>
+                <input type="date" name="fechanac" placeholder="Fecha de nacimiento"><br><br>
+                <input type="text" name="lugarnac" placeholder="Lugar de nacimiento"><br><br>
+                <div class="row marginbottom10">
+                    <div class="col-1"></div>
+                    <div class="col-5"><p class="radiobuttontext">Hombre</p><input class="radiobutton" type="radio" name="sexo" placeholder="Hombre"></div>
+                    <div class="col-5"><p class="radiobuttontext">Mujer</p><input class="radiobutton" type="radio" name="sexo" placeholder="Mujer"></div>
+                    <div class="col-1"></div>
+                </div>
+                <label class="radiobuttontext">Categoria</label>
+                <select>
+                    <option value="subjunior">SubJunior</option>
+                    <option value="junior">Junior</option>
+                    <option value="open">Open</option>
+                    <option value="master1">Master I</option>
+                    <option value="master2">Master II</option>
+                    <option value="master3">Master III</option>
+                </select>
+                <label class="radiobuttontext">Categoria de peso</label>
+                <select>
+                    <option value="-53">-53KG</option>
+                    <option value="-66">-66KG</option>
+                    <option value="-74">-74KG</option>
+                    <option value="-83">-83KG</option>
+                    <option value="-93">-93KG</option>
+                    <option value="-105">-105KG</option>
+                    <option value="-120">-120KG</option>
+                    <option value="+120">+120KG</option>
+                </select><br><br>
+                <input type="submit" class="enviar">
+            </form>
+        </div>
+    </div>
+    <div class="col-4"></div>
+</div>
+</body>
+<footer>
+    <hr>
+    <p>Todos los derechos reservados a la International Powerlifting Federation ™</p>
+    <p>¡Siguenos en redes sociales! | <a href="https://www.instagram.com/theipf/" target="_blank">Instagram</a><img
+            class="iconos" src="../img/Instagram_icon.png.webp" width="20px"> | <a
+            href="https://twitter.com/ipf_tweet?lang=en" target="_blank">Twitter</a><img class="iconos"
+            src="../img/free-twitter-logo-icon-2429-thumb.png" width="20px"> | <a
+            href="https://www.youtube.com/@powerliftingtv" target="_blank">Youtube</a><img class="iconos"
+            src="../img/youtube.png" width="20px"> | <a href="https://www.facebook.com/powerlifting.ipf"
+            target="_blank">Facebook</a><img class="iconos" src="../img/Facebook_logo_(square).png"></p>
+</footer>
+
+</html>
